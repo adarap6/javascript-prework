@@ -1,0 +1,10 @@
+button {
+    border-radius: 50px;
+    font-size: 50px;
+    padding: 10px;
+    background-color: #372692;
+}
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
