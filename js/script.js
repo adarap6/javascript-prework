@@ -1,6 +1,6 @@
 function getMoveName(argMoveId){
     if(argMoveId == 1){
-      return 'kamień';
+      return 'kamien';
     } else if(argMoveId == 2){
         return 'papier';
         } else if(argMoveId == 3) {
@@ -63,7 +63,7 @@ if( computerMove == 'kamien' && playerMove == 'papier'){
   function displayResult(argComputerMove, argPlayerMove){
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
   
-    if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
+    if( argComputerMove == 'kamien' && argPlayerMove == 'papier'){
       printMessage('Ty wygrywasz!');
     } else if(argComputerMove == 'kamien' && argPlayerMove == 'nozyce'){
         printMessage('Przegrales!');
